@@ -1,0 +1,15 @@
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\QuanLyQuanAn.DAL.dll.config
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\QuanLyQuanAn.DAL.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\QuanLyQuanAn.DAL.pdb
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\EntityFramework.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\EntityFramework.SqlServer.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\EntityFramework.xml
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\bin\Debug\EntityFramework.SqlServer.xml
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.csproj.CoreCompileInputs.cache
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.csproj.CopyComplete
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.pdb
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.Migrations.init.resources
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.csproj.GenerateResource.cache
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.csprojAssemblyReference.cache
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.DAL\obj\Debug\QuanLyQuanAn.DAL.Migrations.adidentityinidBillInfo.resources

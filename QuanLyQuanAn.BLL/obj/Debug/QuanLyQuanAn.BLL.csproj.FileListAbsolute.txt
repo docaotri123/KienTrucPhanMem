@@ -1,0 +1,12 @@
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\QuanLyQuanAn.BLL.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\QuanLyQuanAn.BLL.pdb
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\QuanLyQuanAn.DAL.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\EntityFramework.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\QuanLyQuanAn.DAL.pdb
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\QuanLyQuanAn.DAL.dll.config
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\bin\Debug\EntityFramework.xml
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\obj\Debug\QuanLyQuanAn.BLL.csprojAssemblyReference.cache
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\obj\Debug\QuanLyQuanAn.BLL.csproj.CoreCompileInputs.cache
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\obj\Debug\QuanLyQuanAn.BLL.csproj.CopyComplete
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\obj\Debug\QuanLyQuanAn.BLL.dll
+H:\Tri\Nam4\KienTrucPhanMem\QuanLyQuanAn\QuanLyQuanAn\QuanLyQuanAn.BLL\obj\Debug\QuanLyQuanAn.BLL.pdb
