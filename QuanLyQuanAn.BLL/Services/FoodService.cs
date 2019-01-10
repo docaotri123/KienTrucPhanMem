@@ -14,6 +14,22 @@ namespace QuanLyQuanAn.BLL.Services
         {
             this.foodRepository = new FoodRepository(new QuanLyQuanAnDbContext());
         }
+        private static readonly object padlock = new object();
+        private static FoodService instance = null;
+        public static FoodService Instance
+        {
+            get
+            {
+                lock (padlock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new FoodService();
+                    }
+                    return instance;
+                }
+            }
+        }
 
         public int CountFoodByCategory(int? idCate)
         {

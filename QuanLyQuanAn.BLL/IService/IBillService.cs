@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyQuanAn.BLL.IService
 {
-    public interface IBillService
+    public interface IBillService: ICloneService
     {
         IEnumerable<Bill> GetBillsByDate(DateTime? dateCheckIn, DateTime? dateCheckOut);
 

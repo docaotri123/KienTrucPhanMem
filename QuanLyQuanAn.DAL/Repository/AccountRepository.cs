@@ -12,11 +12,13 @@ namespace QuanLyQuanAn.DAL.Repository
         {
         }
 
-        public IEnumerable<Account> GetAccounts()
-        {
-            return Context.Accounts.ToList();
+        //public IEnumerable<Account> GetAccounts()
+        //{
+        //    return Context.Accounts.ToList();
 
-        }
+        //}
+        public IEnumerable<Account> GetAccounts() => GetAll().ToList();
+
         private bool disposed = false;
 
         protected virtual void Dispose(bool disposing)

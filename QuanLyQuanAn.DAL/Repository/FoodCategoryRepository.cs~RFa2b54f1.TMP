@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using QuanLyQuanAn.DAL.Model;
 
 namespace QuanLyQuanAn.DAL.Repository
 {
-    public class FoodCategoryRepository : GenericRepository<QuanLyQuanAnDbContext, FoodCategory> ,IFoodCategoryRepository, IDisposable
+    public class FoodCategoryRepository : IFoodCategoryRepository, IDisposable
     {
         private readonly QuanLyQuanAnDbContext db;
         private bool disposed;
@@ -16,15 +18,13 @@ namespace QuanLyQuanAn.DAL.Repository
             this.db = _db;
         }
 
-        //public IEnumerable<FoodCategory> GetFoodCategories(bool noTracking = false)
-        //{
-
-        //    // return db.FoodCategories.AsNoTracking().ToList();
-        //    return GetAll().To
-
-        //}
-        public IEnumerable<FoodCategory> GetFoodCategories(bool noTracking = false) 
-            => GetAll().ToList();
+        public IEnumerable<FoodCategory> GetFoodCategories(bool noTracking = false)
+        {
+           
+                return db.FoodCategories.AsNoTracking().ToList();
+          
+            
+        }
         protected virtual void Dispose(bool disposing)
         {
             if (!this.disposed)

@@ -9,7 +9,7 @@ using QuanLyQuanAn.DAL.ViewModel;
 
 namespace QuanLyQuanAn.DAL.Repository
 {
-    public class TableFoodRepository : ITableFoodRepository, IDisposable
+    public class TableFoodRepository :GenericRepository<QuanLyQuanAnDbContext, TableFood> ,ITableFoodRepository, IDisposable
     {
         private readonly QuanLyQuanAnDbContext db;
         private bool disposed;
@@ -22,6 +22,7 @@ namespace QuanLyQuanAn.DAL.Repository
  
         public IEnumerable<TableFood> GetTableFoods()
         {
+            //return GetAll().ToList();
             return db.TableFoods.ToList();
         }
 

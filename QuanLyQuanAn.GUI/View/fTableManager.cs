@@ -14,7 +14,7 @@ namespace QuanLyQuanAn
     {
         TableFoodService tableFood = new TableFoodService();
         FoodCategoryService foodCategory = new FoodCategoryService();
-        FoodService food = new FoodService();
+        //FoodService food = new FoodService();
         BillService bill = new BillService();
         BillInfoService billInfo = new BillInfoService();
 
@@ -142,7 +142,7 @@ namespace QuanLyQuanAn
 
         private void LoadFoodbyCategory(int? id)
         {
-            var listFood = food.GetFoodByCategory(id);
+            var listFood = FoodService.Instance.GetFoodByCategory(id);
             cbFood.DataSource = listFood;
             cbFood.DisplayMember = "nameFood";
         }
@@ -172,12 +172,16 @@ namespace QuanLyQuanAn
             {
                 countFood = 1;
             }
+            BillService billCopy = null;
+
             if (status!="Trống")
             {
                 //Bàn đả đặt =>Them BillInfo
                 //   int? idBill = bill.GetIdBillByTable(idTable).idBill;
                 //trien
-                int? idBill = bill.GetIdBillByTableAndStatusBill(idTable,false).idBill;
+                // int? idBill = bill.GetIdBillByTableAndStatusBill(idTable,false).idBill;
+                billCopy = (BillService)bill.Clone(); 
+                int? idBill = billCopy.GetIdBillByTableAndStatusBill(idTable, false).idBill;
                 //trien
                 for (int i = 0; i < countFood; i++)
                 {
@@ -191,13 +195,14 @@ namespace QuanLyQuanAn
             else
             {
                 //Bàn trống=>Tạo moi Bill =>Them BillInfo
+                billCopy = (BillService)bill.Clone();
                 tableFood.SetStatusTable(idTable, "Đã Đặt");
                 DateTime? datetime = DateTime.Now;
                 DateTime? datetimeOut = null;
-                bill.InsertBillIntoTable(idTable, datetime, datetimeOut, 11000, false);
+                billCopy.InsertBillIntoTable(idTable, datetime, datetimeOut, 11000, false);
                 //int? idBill = bill.GetIdBillByTable(idTable).idBill;
                 //trien
-                int? idBill = bill.GetIdBillByTableAndStatusBill(idTable,false).idBill;
+                int? idBill = billCopy.GetIdBillByTableAndStatusBill(idTable,false).idBill;
                 //trien
                 for (int i = 0; i < countFood; i++)
                 {

@@ -15,6 +15,11 @@ namespace QuanLyQuanAn.BLL.Services
             this.billRepository = new BillRepository(new QuanLyQuanAnDbContext());
         }
 
+        public ICloneService Clone()
+        {
+            return (ICloneService) MemberwiseClone();
+        }
+
         public IEnumerable<Bill> GetBillsByDate(DateTime? dateCheckIn, DateTime? dateCheckOut)
         {
             return billRepository.GetBillsByDate(dateCheckIn, dateCheckOut);

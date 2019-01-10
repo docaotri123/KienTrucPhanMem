@@ -46,6 +46,7 @@
     <Compile Include="IService\IAccountService.cs" />
     <Compile Include="IService\IBillInfoService.cs" />
     <Compile Include="IService\IBillService.cs" />
+    <Compile Include="IService\ICloneService.cs" />
     <Compile Include="IService\IFoodCategoryService.cs" />
     <Compile Include="IService\IFoodService.cs" />
     <Compile Include="IService\ITableFoodService.cs" />
